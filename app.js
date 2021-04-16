@@ -26,20 +26,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(logger('dev'));
 
-app.post('/', (req, res) => {
-    const {id, name, price } = req.body;
-
-    res.status(201).json({
-        status: 201,
-        message: "ok",
-        data: {
-            id,
-            name,
-            price
-        }
-        
-    });
-});
-
+//Menu routes
+const menuroute = require('./routes/menuroute');
+app.use('/menu', menuroute);
 
 module.exports = app;
