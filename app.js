@@ -30,4 +30,10 @@ app.use(logger('dev'));
 const menuroute = require('./routes/menuroute');
 app.use('/menu', menuroute);
 
+
+//Order routes
+const orderroute = require('./routes/orderroute');
+app.use('/order', orderroute);
+
+
 module.exports = app;
