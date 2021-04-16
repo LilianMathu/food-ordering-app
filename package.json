@@ -1,0 +1,31 @@
+{
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Config.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "mongoose": "^5.12.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilianMathu/food-ordering-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilianMathu/food-ordering-app/issues"
+  },
+  "homepage": "https://github.com/LilianMathu/food-ordering-app#readme"
+}
