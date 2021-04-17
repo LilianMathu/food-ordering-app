@@ -8,7 +8,7 @@ const orderSchema = Schema({
        required: true
    },
    userPhoneNumber: {
-        type: Number,
+        type: String,
         required: true
     }
 });
